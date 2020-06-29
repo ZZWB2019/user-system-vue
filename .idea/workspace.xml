@@ -2,270 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84476cb6-c251-46bc-8bac-d162771dcb26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/.env.staging" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/build/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/mock/article.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/mock/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/mock/mock-server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/mock/remote-search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/mock/role/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/mock/role/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/mock/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/plopfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/postcss.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/api/excel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/api/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/api/role.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/api/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/assets/401_images/401.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/assets/404_images/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/assets/404_images/404_cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/assets/custom-theme/fonts/element-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/assets/custom-theme/fonts/element-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/assets/custom-theme/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/assets/logo/sideLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/assets/logo/user.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/BackToTop/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Background/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Background/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Breadcrumb/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Charts/Keyboard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Charts/LineMarker.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Charts/MixChart.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Charts/mixins/resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/DndList/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/DragSelect/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Dropzone/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/ErrorLog/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/GithubCorner/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Hamburger/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/HeaderSearch/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/ImageCropper/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/ImageCropper/utils/data2blob.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/ImageCropper/utils/effectRipple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/ImageCropper/utils/language.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/ImageCropper/utils/mimes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/JsonEditor/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Kanban/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/MDinput/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/MarkdownEditor/default-options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/MarkdownEditor/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Pagination/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/PanThumb/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/RightPanel/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Screenfull/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Share/DropdownMenu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/SizeSelect/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Sticky/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/SvgIcon/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/TextHoverEffect/Mallki.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/ThemePicker/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Tinymce/components/EditorImage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Tinymce/dynamicLoadScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Tinymce/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Tinymce/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Tinymce/toolbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Upload/SingleImage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Upload/SingleImage2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/Upload/SingleImage3.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/UploadExcel/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/components/table-tree-column/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/filters/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/404.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/bug.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/caozuorizhi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/chart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/clipboard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/component.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/dashboard.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/documentation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/drag.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/edit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/education.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/example.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/excel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/exit-fullscreen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/eye-open.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/eye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/form.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/fullscreen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/guide.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-admin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-bianji.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-config.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-dangdifill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-daohang.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-duanxin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-editor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-geren.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-jiesuo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-job.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-log.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-menu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-mudedi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-oss.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-pinglun.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-role.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-shanchu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-shezhi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-shoucang.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-shoucangfill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-shouye.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-sousuo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-sql.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-suoding.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-system.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-tixing.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-tubiao.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-xiangqu.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-xiangqufill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-zhedie.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon-zonghe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/international.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/jiaoseguanli.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/jichupeizhi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/language.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/list.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/lock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/message.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/money.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/nested.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/password.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/pdf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/people.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/peoples.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/qq.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/quanxianguanli.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/rizhiguanli.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/shopping.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/shujuzidian.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/size.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/skill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/star.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/system/caozuorizhi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/system/jiaoseguanli.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/system/jichupeizhi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/system/quanxianguanli.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/system/rizhiguanli.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/system/shujuzidian.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/system/timingtask.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/system/xitongguanli.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/system/xitongrizhi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/system/yewuxitong.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/system/yonghuguanli.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/system/zuzhiguanli.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/table.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/theme.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/timingtask.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/tree-table.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/tree.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/user.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/wechat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/xitongguanli.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/xitongrizhi.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/yewuxitong.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/yonghuguanli.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/zip.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svg/zuzhiguanli.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/icons/svgo.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/layout/components/AppMain.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/layout/components/Navbar.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/layout/components/Settings/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/layout/components/Sidebar/FixiOSBug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/layout/components/Sidebar/Item.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/layout/components/Sidebar/Link.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/layout/components/Sidebar/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/layout/components/TagsView/ScrollPane.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/layout/components/TagsView/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/layout/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/layout/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/layout/mixin/ResizeHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/store/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/store/modules/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/store/modules/errorLog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/store/modules/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/store/modules/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/store/modules/tagsView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/store/modules/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/styles/btn.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/styles/element-ui.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/styles/element-variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/styles/mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/styles/sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/styles/transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/styles/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/utils/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/utils/clipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/utils/error-log.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/utils/get-page-title.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/utils/open-window.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/utils/permission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/utils/scroll-to.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/utils/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/utils/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/dashboard/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/error-page/401.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/error-page/404.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/excel/components/AutoWidthOption.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/excel/components/BookTypeOption.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/excel/components/FilenameOption.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/excel/export-excel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/excel/upload-excel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/login/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/nested.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/redirect/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/main-navbar-update-password.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/menu-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/menu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/role-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/role.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user-add-or-update.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/tests/unit/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/tests/unit/components/Hamburger.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/tests/unit/components/SvgIcon.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/tests/unit/utils/formatTime.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/tests/unit/utils/parseTime.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/tests/unit/utils/validate.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-template-frontend/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/store/modules/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/store/modules/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -296,8 +40,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/api/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="308">
+              <caret line="56" column="19" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/user.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+              <folding>
+                <element signature="n#style#0;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/user-add-or-update.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/permission.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="43" column="59" lean-forward="true" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/store/modules/permission.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1826">
+              <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/login/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="178" column="30" lean-forward="true" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/store/modules/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -305,72 +115,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui-template-frontend/vue.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="26" column="51" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="51" />
+            <state relative-caret-position="176">
+              <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="22" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-template-frontend/.env.development">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="68" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/login/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-              <folding>
-                <element signature="n#style#0;n#el-button#0;n#el-form#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/utils/scroll-to.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/utils/auth.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/utils/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6974">
-              <caret line="317" column="18" selection-start-line="317" selection-start-column="18" selection-end-line="317" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/utils/open-window.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -379,6 +127,9 @@
     <findStrings>
       <find>VUE_APP_BASE_API</find>
       <find>env</find>
+      <find>username</find>
+      <find>access</find>
+      <find>captcha</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -388,8 +139,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ui-template-frontend/vue.config.js" />
+        <option value="$PROJECT_DIR$/ui-template-frontend/src/router/index.js" />
+        <option value="$PROJECT_DIR$/ui-template-frontend/src/permission.js" />
         <option value="$PROJECT_DIR$/ui-template-frontend/src/api/user.js" />
+        <option value="$PROJECT_DIR$/ui-template-frontend/src/store/modules/user.js" />
         <option value="$PROJECT_DIR$/ui-template-frontend/src/views/login/index.vue" />
+        <option value="$PROJECT_DIR$/ui-template-frontend/src/store/modules/permission.js" />
+        <option value="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user.vue" />
+        <option value="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user-add-or-update.vue" />
       </list>
     </option>
   </component>
@@ -455,6 +212,14 @@
               <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-template-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -477,7 +242,15 @@
               <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="redirect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ui-template-frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -492,7 +265,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ui-template-frontend/src/views/login" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -501,6 +274,11 @@
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\IdeaProjects\ui-template-frontend\ui-template-frontend\src\views\login" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -513,6 +291,18 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="run dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/ui-template-frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -536,7 +326,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16479000" />
+    <option name="totallyTimeSpent" value="26407000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,8 +339,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13873994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23525469" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -559,14 +350,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.67563736" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.17988668" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.17988668" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -624,15 +415,6 @@
     <entry file="file://$PROJECT_DIR$/ui-template-frontend/public/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/permission.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1133">
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui-template-frontend/plopfile.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -678,16 +460,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/styles/index.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1166">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-template-frontend/node_modules/@types/node/globals.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -755,20 +527,6 @@
     <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/utils/open-window.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/api/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/vue.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui-template-frontend/.env.development">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -782,13 +540,98 @@
     <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/App.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/node_modules/vuex/types/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/utils/permission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/permission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="43" column="59" lean-forward="true" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-852">
+          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/store/modules/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/login/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="248">
+          <caret line="178" column="30" lean-forward="true" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/store/modules/permission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1826">
+          <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
           <folding>
-            <element signature="n#style#0;n#el-button#0;n#el-form#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#0#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/nested.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/api/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/user.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/user-add-or-update.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
     </entry>
