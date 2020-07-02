@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="84476cb6-c251-46bc-8bac-d162771dcb26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/api/role.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/api/role.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/api/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/permission.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/store/modules/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/store/modules/permission.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/views/login/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/login/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/utils/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/utils/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/role-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/role-add-or-update.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/role.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/role.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user-add-or-update.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user-add-or-update.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user.vue" beforeDir="false" afterPath="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user.vue" afterDir="false" />
     </list>
@@ -38,43 +39,66 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/api/user.js">
+        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/role-add-or-update.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="56" column="19" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="19" />
+            <state relative-caret-position="1870">
+              <caret line="87" column="49" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="49" />
+              <folding>
+                <element signature="e#1038#1086#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/user.vue">
+        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/api/role.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-              <folding>
-                <element signature="n#style#0;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/utils/tree.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/user-add-or-update.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1319">
+              <caret line="171" column="33" selection-start-line="171" selection-start-column="33" selection-end-line="171" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/user-add-or-update.vue">
+        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/menu.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="270">
+              <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/permission.js">
+        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/role.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="43" column="59" lean-forward="true" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2178">
+              <caret line="101" column="18" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -82,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/store/modules/permission.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1826">
-              <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+            <state relative-caret-position="1804">
+              <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -94,20 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/login/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="178" column="30" lean-forward="true" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/store/modules/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="3916">
+              <caret line="178" column="30" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -115,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui-template-frontend/vue.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="836">
+              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -130,6 +142,9 @@
       <find>username</find>
       <find>access</find>
       <find>captcha</find>
+      <find>addOrUpdate</find>
+      <find>page</find>
+      <find>data</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,14 +154,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ui-template-frontend/vue.config.js" />
-        <option value="$PROJECT_DIR$/ui-template-frontend/src/router/index.js" />
         <option value="$PROJECT_DIR$/ui-template-frontend/src/permission.js" />
-        <option value="$PROJECT_DIR$/ui-template-frontend/src/api/user.js" />
         <option value="$PROJECT_DIR$/ui-template-frontend/src/store/modules/user.js" />
         <option value="$PROJECT_DIR$/ui-template-frontend/src/views/login/index.vue" />
         <option value="$PROJECT_DIR$/ui-template-frontend/src/store/modules/permission.js" />
-        <option value="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user.vue" />
         <option value="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user-add-or-update.vue" />
+        <option value="$PROJECT_DIR$/ui-template-frontend/src/api/user.js" />
+        <option value="$PROJECT_DIR$/ui-template-frontend/src/views/sys/user.vue" />
+        <option value="$PROJECT_DIR$/ui-template-frontend/src/utils/tree.js" />
+        <option value="$PROJECT_DIR$/ui-template-frontend/src/views/sys/role-add-or-update.vue" />
+        <option value="$PROJECT_DIR$/ui-template-frontend/src/views/sys/role.vue" />
+        <option value="$PROJECT_DIR$/ui-template-frontend/src/api/role.js" />
+        <option value="$PROJECT_DIR$/ui-template-frontend/src/router/index.js" />
       </list>
     </option>
   </component>
@@ -205,44 +224,7 @@
               <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ui-template-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ui-template-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ui-template-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ui-template-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ui-template-frontend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-template-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="redirect" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ui-template-frontend" type="b2602c69:ProjectViewProjectNode" />
@@ -256,8 +238,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,11 +304,23 @@
       <workItem from="1593258372004" duration="1206000" />
       <workItem from="1593298450040" duration="690000" />
       <workItem from="1593304884146" duration="2089000" />
+      <workItem from="1593472973548" duration="1733000" />
+      <workItem from="1593477456790" duration="20709000" />
+      <workItem from="1593573823919" duration="15185000" />
+      <workItem from="1593650120469" duration="1259000" />
     </task>
+    <task id="LOCAL-00001" summary="修改：完善前端页面">
+      <created>1593421360741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593421360741</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26407000" />
+    <option name="totallyTimeSpent" value="69947000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,9 +333,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23525469" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24865952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -378,13 +371,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改：完善前端页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改：完善前端页面" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/mock/user.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/mock/remote-search.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui-template-frontend/mock/mock-server.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -433,23 +424,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/utils/request.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1408">
-          <caret line="67" column="35" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/utils/tree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/utils/get-page-title.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -554,86 +528,161 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/nested.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="1220" column="4" selection-start-line="1220" selection-start-column="4" selection-end-line="1220" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/node_modules/codemirror/mode/coffeescript/coffeescript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="314" column="8" selection-start-line="314" selection-start-column="8" selection-end-line="314" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/api/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/utils/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/main-navbar-update-password.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/node_modules/vue/types/vue.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/node_modules/element-ui/types/tree.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="177" column="2" selection-start-line="177" selection-start-column="2" selection-end-line="177" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/permission.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="43" column="59" lean-forward="true" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+        <state relative-caret-position="380">
+          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/vue.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-852">
-          <caret line="56" column="21" lean-forward="true" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/store/modules/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="314">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/login/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="178" column="30" lean-forward="true" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/store/modules/permission.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1826">
-          <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/nested.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/api/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="56" column="19" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/user.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        <state relative-caret-position="2574">
+          <caret line="118" column="12" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
           <folding>
             <element signature="n#style#0;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/user-add-or-update.vue">
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/role-add-or-update.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="1870">
+          <caret line="87" column="49" selection-start-line="87" selection-start-column="49" selection-end-line="87" selection-end-column="49" />
+          <folding>
+            <element signature="e#1038#1086#0" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/api/role.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/utils/tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/role.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2178">
+          <caret line="101" column="18" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/store/modules/permission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1804">
+          <caret line="83" column="16" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/login/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3916">
+          <caret line="178" column="30" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/vue.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/user-add-or-update.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1319">
+          <caret line="171" column="33" selection-start-line="171" selection-start-column="33" selection-end-line="171" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-template-frontend/src/views/sys/menu.vue">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

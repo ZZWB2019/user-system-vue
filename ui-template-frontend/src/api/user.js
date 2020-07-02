@@ -26,7 +26,7 @@ export function addOrUpdate(id, data) {
   return request({
     url: `/user/${!id ? 'save' : 'update'}`,
     method: 'post',
-    data: { body: data }
+    data: data
   })
 }
 
@@ -55,7 +55,7 @@ export function getUserList(data) {
   return request({
     url: '/user/list',
     method: 'post',
-    data: { body: data }
+    data: data
   })
 }
 
@@ -63,7 +63,7 @@ export function deleteUser(data) {
   return request({
     url: '/user/delete',
     method: 'delete',
-    data: { body: data }
+    data: data
   })
 }
 
@@ -71,6 +71,6 @@ export function updatePassword(data) {
   return request({
     url: '/user/password',
     method: 'post',
-    data: { body: data }
+    data: data
   })
 }

@@ -6,10 +6,11 @@
       </el-form-item>
       <!-- v-if="isAuth('sys:user:save')" -->
       <!-- v-if="isAuth('sys:user:delete')" -->
+      <!-- v-if="isAuth('sys:user:delete')" -->
       <el-form-item>
         <el-button @click="getDataList()">查询</el-button>
         <el-button  type="primary" @click="addOrUpdateHandle()">新增</el-button>
-        <el-button v-if="isAuth('sys:user:delete')" type="danger" :disabled="dataListSelections.length <= 0" @click="deleteHandle()">批量删除</el-button>
+        <el-button  type="danger" :disabled="dataListSelections.length <= 0" @click="deleteHandle()">批量删除</el-button>
       </el-form-item>
     </el-form>
     <el-table
@@ -58,7 +59,7 @@
         label="状态"
       >
         <template slot-scope="scope">
-          <el-tag v-if="scope.row.status === 0" size="small" type="danger">禁用</el-tag>
+          <el-tag v-if="scope.row.isDeleted === 1" size="small" type="danger">禁用</el-tag>
           <el-tag v-else size="small">正常</el-tag>
         </template>
       </el-table-column>
@@ -69,8 +70,8 @@
         width="180"
         label="创建时间"
       />
+      <!--  v-if="isAuth('sys:user:update')||isAuth('sys:user:delete')" -->
       <el-table-column
-        v-if="isAuth('sys:user:update')||isAuth('sys:user:delete')"
         header-align="center"
         align="center"
         width="150"
@@ -78,8 +79,8 @@
       >
         <!-- v-if="isAuth('sys:user:update')" -->
         <template slot-scope="scope">
-          <el-button  type="text" size="small" @click="addOrUpdateHandle(scope.row.userNo)">修改</el-button>
-          <el-button  type="text" size="small" @click="deleteHandle(scope.row.userNo)">删除</el-button>
+          <el-button  type="text" size="small" @click="addOrUpdateHandle(scope.row.uid)">修改</el-button>
+          <el-button  type="text" size="small" @click="deleteHandle(scope.row.uid)">删除</el-button>
         </template>
       </el-table-column>
     </el-table>
@@ -161,7 +162,7 @@ export default {
     // 删除
     deleteHandle(id) {
       var userNos = id ? [id] : this.dataListSelections.map(item => {
-        return item.userNo
+        return item.uid
       })
       this.$confirm(`确定进行[${id ? '删除' : '批量删除'}]操作?`, '提示', {
         confirmButtonText: '确定',
@@ -169,7 +170,7 @@ export default {
         type: 'warning'
       }).then(() => {
         deleteUser({
-          'userNos': userNos
+          'id': userNos
         }).then(data => {
           this.$message({
             message: '操作成功',

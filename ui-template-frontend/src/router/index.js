@@ -64,6 +64,12 @@ export const asyncRoutes = [
         name: 'Role',
         component: () => import('@/views/sys/role'),
         meta: { title: '角色管理', icon: 'tree', permission: 'admin:role' }
+      },
+      {
+        path: 'menu',
+        name: 'Menu',
+        component: () => import('@/views/sys/menu'),
+        meta: { title: '菜单管理', icon: 'tree', permission: 'admin:role' }
       }
     ]
   }

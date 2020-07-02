@@ -59,7 +59,7 @@ export default {
     init(id) {
       this.dataForm.id = id || 0
       getMenus().then(data => {
-        this.menuList = treeDataTranslate(data.body, 'id')
+        this.menuList = treeDataTranslate(data, 'id')
       }).then(() => {
         this.visible = true
         this.$nextTick(() => {
@@ -69,8 +69,8 @@ export default {
       }).then(() => {
         if (this.dataForm.id) {
           getRoleInfo(this.dataForm.id).then(data => {
-            this.dataForm.roleName = data.body.roleName
-            this.dataForm.remark = data.body.remark
+            this.dataForm.roleName = data.body.name
+            this.dataForm.remark = data.body.note
             var idx = data.body.menuIds.indexOf(this.tempKey)
             if (idx !== -1) {
               data.body.menuIds.splice(idx, data.body.menuIds.length - idx)
@@ -85,9 +85,9 @@ export default {
       this.$refs['dataForm'].validate((valid) => {
         if (valid) {
           addOrUpdate(this.dataForm.id, {
-            'roleId': this.dataForm.id || undefined,
-            'roleName': this.dataForm.roleName,
-            'remark': this.dataForm.remark,
+            'rid': this.dataForm.id || undefined,
+            'name': this.dataForm.roleName,
+            'note': this.dataForm.remark,
             'menuIdList': [].concat(this.$refs.menuListTree.getCheckedKeys(), [this.tempKey], this.$refs.menuListTree.getHalfCheckedKeys())
           }).then(data => {
             this.$message({

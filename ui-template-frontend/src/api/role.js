@@ -11,7 +11,7 @@ export function getPageRoles(data) {
   return request({
     url: '/role/list',
     method: 'post',
-    data: { body: data }
+    data: data
   })
 }
 
@@ -19,7 +19,7 @@ export function deleteRole(ids) {
   return request({
     url: '/role/delete',
     method: 'delete',
-    data: { body: ids }
+    data: ids
   })
 }
 
@@ -34,6 +34,6 @@ export function addOrUpdate(id, data) {
   return request({
     url: `/role/${!id ? 'save' : 'update'}`,
     method: 'post',
-    data: { body: data }
+    data: data
   })
 }

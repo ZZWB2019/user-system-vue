@@ -5,10 +5,10 @@
     :visible.sync="visible"
   >
     <el-form ref="dataForm" :model="dataForm" :rules="dataRule" label-width="80px" @keyup.enter.native="dataFormSubmit()">
-      <el-form-item label="用户名" prop="userName">
+      <el-form-item label="用户名" prop="name">
         <el-input v-model="dataForm.userName" placeholder="登录帐号" />
       </el-form-item>
-      <el-form-item label="密码" prop="password" :class="{ 'is-required': !dataForm.id }">
+      <el-form-item label="密码" prop="passwd" :class="{ 'is-required': !dataForm.id }">
         <el-input v-model="dataForm.password" type="password" placeholder="请输入8-16位密码" />
       </el-form-item>
       <el-form-item label="确认密码" prop="comfirmPassword" :class="{ 'is-required': !dataForm.id }">
@@ -17,18 +17,18 @@
       <el-form-item label="邮箱" prop="email">
         <el-input v-model="dataForm.email" placeholder="邮箱" />
       </el-form-item>
-      <el-form-item label="手机号" prop="mobile">
+      <el-form-item label="手机号" prop="phnumber">
         <el-input v-model="dataForm.mobile" placeholder="手机号" />
       </el-form-item>
       <el-form-item label="角色" size="mini" prop="roleIds">
         <el-checkbox-group v-model="dataForm.roleIds">
-          <el-checkbox v-for="role in roleList" :key="role.rid" :label="role.name">{{ role.name }}</el-checkbox>
+          <el-checkbox v-for="role in roleList" :key="role.rid" :label="role.rid">{{ role.name }}</el-checkbox>
         </el-checkbox-group>
       </el-form-item>
-      <el-form-item label="状态" size="mini" prop="status">
+      <el-form-item label="状态" size="mini" prop="is_delete">
         <el-radio-group v-model="dataForm.status">
-          <el-radio :label="0">禁用</el-radio>
-          <el-radio :label="1">正常</el-radio>
+          <el-radio :label="1">禁用</el-radio>
+          <el-radio :label="0">正常</el-radio>
         </el-radio-group>
       </el-form-item>
     </el-form>
@@ -178,12 +178,12 @@ export default {
       }).then(() => {
         if (this.dataForm.id) {
           getInfoById(this.dataForm.id).then(data => {
-            this.dataForm.userName = data.body.username
+            this.dataForm.userName = data.body.userDo.name
             this.dataForm.salt = data.body.salt
-            this.dataForm.email = data.body.email
-            this.dataForm.mobile = data.body.mobile
-            this.dataForm.roleIds = data.body.roleIds
-            this.dataForm.status = data.body.status
+            this.dataForm.email = data.body.userDo.email
+            this.dataForm.mobile = data.body.userDo.phnumber
+            this.dataForm.roleIds = data.body.userDo.roleId
+            this.dataForm.status = data.body.userDo.isDeleted
           })
         }
       })
@@ -193,13 +193,13 @@ export default {
       this.$refs['dataForm'].validate((valid) => {
         if (valid) {
           addOrUpdate(this.dataForm.id, {
-            'userNo': this.dataForm.id || undefined,
-            'username': this.dataForm.userName,
-            'password': this.dataForm.password,
+            'uid': this.dataForm.id || undefined,
+            'name': this.dataForm.userName,
+            'passwd': this.dataForm.password,
             'salt': this.dataForm.salt,
             'email': this.dataForm.email,
-            'mobile': this.dataForm.mobile,
-            'status': this.dataForm.status,
+            'phnumber': this.dataForm.mobile,
+            'isDelete': this.dataForm.status,
             'roleIds': this.dataForm.roleIds
           }).then(data => {
             this.$message({
