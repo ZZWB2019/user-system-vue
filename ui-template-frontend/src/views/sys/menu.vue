@@ -2,7 +2,8 @@
   <div class="app-container">
     <el-form :inline="true" size="small" :model="dataForm">
       <el-form-item>
-        <el-button v-if="isAuth('sys:menu:save')" type="primary" icon="el-icon-circle-plus" @click="addOrUpdateHandle()">新增</el-button>
+        <!-- v-if="isAuth('sys:menu:save')" -->
+        <el-button type="primary" icon="el-icon-circle-plus" @click="addOrUpdateHandle()">新增</el-button>
       </el-form-item>
     </el-form>
     <el-table
@@ -11,37 +12,13 @@
       border
       size="small"
       style="width: 100%; "
+      :tree-props="{children: 'children', hasChildren: 'hasChildren'}"
     >
       <el-table-column
-        prop="resourceName"
+        prop="name"
         header-align="center"
         label="名称"
       />
-      <el-table-column
-        prop="resourceKey"
-        header-align="center"
-        align="center"
-        :show-overflow-tooltip="true"
-        width="200"
-        label="授权标识"
-      />
-      <el-table-column
-        prop="resourceUrl"
-        header-align="center"
-        align="center"
-        :show-overflow-tooltip="true"
-        label="链接"
-      />
-      <el-table-column
-        prop="resourceUrl"
-        header-align="center"
-        align="center"
-        label="图标"
-      >
-        <template slot-scope="scope">
-          <svg-icon :icon-class="scope.row.resourceIcon" />
-        </template>
-      </el-table-column>
       <el-table-column
         header-align="center"
         align="center"
@@ -55,27 +32,28 @@
         </template>
       </el-table-column>
       <el-table-column
-        prop="resourceLevel"
+        prop="path"
         header-align="center"
-        align="center"
-        width="80"
-        label="排序号"
+        label="操作地址"
       />
+      <!-- v-if="isAuth('sys:menu:update')||isAuth('sys:menu:delete')" -->
       <el-table-column
-        v-if="isAuth('sys:menu:update')||isAuth('sys:menu:delete')"
         header-align="center"
         align="center"
         width="150"
         label="操作"
       >
+        <!-- v-if="isAuth('sys:menu:update')" -->
+        <!-- v-if="isAuth('sys:menu:delete')" -->
         <template slot-scope="scope">
-          <el-button v-if="isAuth('sys:menu:update')" type="text" size="small" @click="addOrUpdateHandle(scope.row.id)">修改</el-button>
-          <el-button v-if="isAuth('sys:menu:delete')" type="text" size="small" @click="deleteHandle(scope.row.id)">删除</el-button>
+          <el-button  type="text" size="small" @click="addOrUpdateHandle(scope.row.id)">修改</el-button>
+          <el-button  type="text" size="small" @click="deleteHandle(scope.row.id)">删除</el-button>
         </template>
       </el-table-column>
     </el-table>
     <!-- 弹窗, 新增 / 修改 -->
-    <add-or-update v-if="addOrUpdateVisible" ref="addOrUpdate" @refreshDataList="getDataList" />
+    <!-- v-if="addOrUpdateVisible" -->
+    <add-or-update ref="addOrUpdate" @refreshDataList="getDataList" />
   </div>
 </template>
 

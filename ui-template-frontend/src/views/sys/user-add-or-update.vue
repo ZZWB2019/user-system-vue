@@ -178,12 +178,12 @@ export default {
       }).then(() => {
         if (this.dataForm.id) {
           getInfoById(this.dataForm.id).then(data => {
-            this.dataForm.userName = data.body.userDo.name
+            this.dataForm.userName = data.body.userDTO.name
             this.dataForm.salt = data.body.salt
-            this.dataForm.email = data.body.userDo.email
-            this.dataForm.mobile = data.body.userDo.phnumber
-            this.dataForm.roleIds = data.body.userDo.roleId
-            this.dataForm.status = data.body.userDo.isDeleted
+            this.dataForm.email = data.body.userDTO.email
+            this.dataForm.mobile = data.body.userDTO.phnumber
+            this.dataForm.roleIds = data.body.roleId
+            this.dataForm.status = data.body.userDTO.isDeleted
           })
         }
       })

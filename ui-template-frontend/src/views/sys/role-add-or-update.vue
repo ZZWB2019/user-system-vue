@@ -18,6 +18,7 @@
           :props="menuListTreeProps"
           node-key="id"
           :default-expand-all="true"
+          :default-checked-keys="menuIdList"
           show-checkbox
         />
       </el-form-item>
@@ -38,14 +39,15 @@ export default {
     return {
       visible: false,
       menuList: [],
+      menuIdList: [],
       menuListTreeProps: {
-        label: 'resourceName',
+        label: 'name',
         children: 'children'
       },
       dataForm: {
         id: 0,
         roleName: '',
-        remark: ''
+        remark: '',
       },
       dataRule: {
         roleName: [
@@ -59,7 +61,8 @@ export default {
     init(id) {
       this.dataForm.id = id || 0
       getMenus().then(data => {
-        this.menuList = treeDataTranslate(data, 'id')
+        this.menuList = treeDataTranslate(data.body, 'id')
+        this.menuIdList = data.body.menuIds
       }).then(() => {
         this.visible = true
         this.$nextTick(() => {

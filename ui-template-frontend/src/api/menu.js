@@ -39,6 +39,13 @@ export function menuSaveOrUpdate(id, data) {
   return request({
     url: `/menu/${!id ? 'save' : 'update'}`,
     method: 'post',
-    data: { body: data }
+    data: data
+  })
+}
+
+export function getExMenus() {
+  return request({
+    url: '/menu/mylist',
+    method: 'get'
   })
 }
